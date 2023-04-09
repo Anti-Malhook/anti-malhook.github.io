@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>The Anti-Malhook Community</title>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
 	<style>
 		body {
 			font-family: 'Montserrat', sans-serif;
@@ -14,11 +14,17 @@
 			background-color: #333333;
 			color: #ffffff;
 			padding: 10px;
-			text-align: center;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 		h1 {
 			font-size: 48px;
 			margin: 0;
+		}
+		.logo {
+			max-width: 100px;
+			height: auto;
 		}
 		main {
 			max-width: 800px;
@@ -51,7 +57,9 @@
 </head>
 <body>
 	<header>
+		<img src="https://i.imgur.com/Ky49C9o.png" alt="Anti-Malhook Logo" class="logo">
 		<h1>The Anti-Malhook Community</h1>
+		<img src="https://i.imgur.com/Ky49C9o.png" alt="Anti-Malhook Logo" class="logo">
 	</header>
 	<main>
 		<h2>About Us</h2>
@@ -60,5 +68,7 @@
 		<p>If you have found a malicious Discord webhook, click the button below to submit it to us for free without registration required.</p>
 		<button onclick="window.open('https://antimalhook.wufoo.com/forms/submit-a-malhook/', '_blank', 'noopener,noreferrer')">Submit</button>
 	</main>
+
+
 </body>
 </html>
